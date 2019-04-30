@@ -367,11 +367,11 @@
           always pass, even if they are incorrect.
       -->
       <!--added by Nouman-->
-      <plugin>
-        <groupId>org.codehaus.sonar</groupId>
+     <plugin>
+        <groupId>org.codehaus.mojo</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
-        <version>2.5</version>
-      </plugin>
+        <version>3.0.2</version>
+    </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
